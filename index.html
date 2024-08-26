@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="logo">My Portfolio</div>
+        <input type="checkbox" id="menu-bar">
+        <label for="menu-bar" class="menu-icon"><span></span></label>
+        <ul class="menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="home">
+        <h1>Hi, I'm Smriti Sharma</h1>
+        <p>This is my portfolio </p>
+        <a href="#projects" class="btn">View My Work</a>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="about-img">
+            <img src="profile.jpg" alt="Profile Picture">
+        </div>
+        <div class="about-content">
+            <h2>About Me</h2>
+            <p>Hello! I'm Smriti Sharma, a web developer with experience in creating modern and responsive web applications. I enjoy turning complex problems into simple, beautiful, and intuitive designs.</p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <h2>Skills</h2>
+        <div class="skill-bars">
+            <div class="skill-bar">
+                <span>HTML</span>
+                <div class="progress"><div class="html"></div></div>
+            </div>
+            <div class="skill-bar">
+                <span>CSS</span>
+                <div class="progress"><div class="css"></div></div>
+            </div>
+            <div class="skill-bar">
+                <span>JavaScript</span>
+                <div class="progress"><div class="js"></div></div>
+            </div>
+            <div class="skill-bar">
+                <span>Java</span>
+                <div class="progress"><div class="java"></div></div>
+            </div>
+
+            <!-- Add more skills as needed -->
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2>Projects</h2>
+        <div class="project-container">
+            <div class="project">
+                <h3>Bakery Website</h3>
+                <p>This website allows customers to order bakery products online.</p>
+            </div>
+            <div class="project">
+                <h3>Portfolio Website</h3>
+                <p>This is a portfolio containing all my information which include my skills, projects, etc.</p>
+            </div>
+            <!-- Add more projects as needed -->
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 [Smriti Sharma]. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
